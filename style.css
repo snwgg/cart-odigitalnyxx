@@ -1,0 +1,27 @@
+*{margin: 0;
+padding:0 ;
+box-sizing: border-box;
+}
+body{display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+background-image: linear-gradient(to bottom right, #fff #3be6e6);
+background-size: 200% 200%;
+animation: float 6s linear infinite alternate;
+
+}
+@keyframes float{
+    from{background-position: 0% 0%;}
+
+    section{padding: 45px;
+    background-color: #fff;
+width: 500px;
+border-radius: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+
+}
